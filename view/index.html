@@ -1,0 +1,236 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ACCI-A | Denuncie a Caça Ilegal</title>
+    <meta
+      name="description"
+      content="Campanha ACCI-A contra a caça ilegal na Amazônia. Denuncie, doe e proteja a fauna brasileira."
+    />
+    <link rel="icon" type="image/png" href="logo-acci-a.png" />
+    <link rel="apple-touch-icon" href="logo-acci-a.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <nav class="nav container" aria-label="Navegação principal">
+        <a class="brand" href="#inicio" aria-label="ACCI-A - início">
+          <img src="logo-acci-a.png" alt="Logo ACCI-A Denuncie Caça Ilegal" />
+          <span class="brand-copy">
+            <strong>ACCI<span>-A</span></strong>
+            <small>Aliança Contra a Caça Ilegal na Amazônia</small>
+          </span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" data-menu-toggle>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-links" data-menu>
+          <div class="nav-dropdown">
+            <button class="nav-dropdown-toggle" type="button" aria-expanded="false" aria-haspopup="true" data-dropdown-toggle>
+              Menu
+              <span aria-hidden="true"></span>
+            </button>
+            <div class="nav-dropdown-menu" data-dropdown-menu>
+              <a href="impacto.html">Impacto</a>
+              <a href="animais.html">Animais</a>
+              <a href="como-agir.html">Como agir</a>
+              <a href="#doacao">Doar</a>
+              <a class="nav-cta" href="#denuncia">Denunciar</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="inicio">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-media" aria-hidden="true"></div>
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="container hero-content">
+          <p class="alert-label reveal">Crise de extinção • Amazônia</p>
+          <h1 id="hero-title" class="reveal">A floresta <span>sangra</span> em silêncio.</h1>
+          <p class="hero-copy reveal">
+            A caça ilegal destrói famílias inteiras de animais, enfraquece comunidades e alimenta redes criminosas.
+            Sua denúncia pode acionar resgate, fiscalização e proteção real.
+          </p>
+          <div class="hero-actions reveal">
+            <a class="button button-primary" href="#denuncia" data-report-open>Fazer denúncia</a>
+            <a class="button button-secondary" href="#doacao" data-donation-open>Apoiar com Pix</a>
+          </div>
+          <aside class="hotline reveal" aria-label="Canal oficial de denúncia">
+            <span>Disque IBAMA</span>
+            <strong>0800 61 8080</strong>
+          </aside>
+        </div>
+      </section>
+
+      <section class="proof-strip" aria-label="Garantias da campanha">
+        <div class="container proof-grid">
+          <article class="proof-item reveal">
+            <span>Sigilo garantido</span>
+            <p>Você pode denunciar de forma anônima e anexar provas sem expor sua identidade.</p>
+          </article>
+          <article class="proof-item reveal">
+            <span>Resposta rápida</span>
+            <p>Local, horário, fotos e vídeos ajudam a orientar a apuração e priorizar o atendimento.</p>
+          </article>
+          <article class="proof-item reveal">
+            <span>Ajude a proteger</span>
+            <p>Doações apoiam deslocamento, monitoramento, acolhimento e cuidado emergencial.</p>
+          </article>
+        </div>
+      </section>
+
+
+
+
+      <section class="section donation" id="doacao">
+        <div class="container donation-layout">
+          <div class="section-copy reveal">
+            <p class="kicker">Por que doar?</p>
+            <h2>Sua ajuda vira patrulha, resgate e proteção.</h2>
+            <p>
+              Doações ajudam a financiar equipes de campo, combustível para fiscalizações, câmeras de monitoramento,
+              atendimento veterinário e educação ambiental nas comunidades.
+            </p>
+          </div>
+          <aside class="pix-card reveal" aria-label="Doação via Pix">
+            <h3>Todo valor é bem-vindo!</h3>
+            <img src="pix-caixatem-qr.jpg" alt="QR Code Pix Caixa Tem da campanha" />
+            <p>Escaneie o QR Code pelo aplicativo do seu banco.</p>
+            <code>50272952869</code>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section report" id="denuncia">
+        <div class="container report-layout">
+          <div class="section-copy reveal">
+            <p class="kicker">Denúncia segura</p>
+            <h2>Conte o que viu. Sua denúncia faz a diferença.</h2>
+            <p>
+              O formulário abaixo é demonstrativo para a campanha. Em uma implantação real, os dados devem ser enviados
+              para uma base segura e integrada aos canais oficiais de apuração.
+            </p>
+          </div>
+
+          <form class="report-form reveal" data-report-form>
+            <div class="report-type" role="group" aria-label="Tipo de denúncia">
+              <button class="active" type="button" data-report-type="anonymous" aria-pressed="true">Anônima</button>
+              <button type="button" data-report-type="identified" aria-pressed="false">Identificada</button>
+            </div>
+            <p class="identity-warning" data-identity-warning hidden>
+              Na denúncia identificada, seus dados ficam registrados para acompanhamento do caso.
+            </p>
+            <div class="form-row identity-fields" data-identity-fields>
+              <label>Nome<input type="text" name="name" placeholder="Seu nome completo" data-identity-input /></label>
+              <label>E-mail<input type="email" name="email" placeholder="seu@email.com" data-identity-input /></label>
+            </div>
+            <div class="form-row">
+              <label class="cpf-field" data-cpf-field hidden>CPF<input type="text" name="cpf" inputmode="numeric" maxlength="14" placeholder="000.000.000-00" data-cpf /></label>
+              <label>Local<input type="text" name="location" placeholder="Cidade, rio, estrada ou referência" required /></label>
+            </div>
+            <label>Animal envolvido
+              <select name="animal" required>
+                <option value="">Selecione</option>
+                <option>Onça-pintada</option>
+                <option>Boto-cor-de-rosa</option>
+                <option>Primata amazônico</option>
+                <option>Ave silvestre</option>
+                <option>Outro animal</option>
+              </select>
+            </label>
+            <label>Descrição
+              <textarea name="message" rows="5" placeholder="Descreva o que aconteceu, quando aconteceu e quem estava envolvido" required></textarea>
+            </label>
+            <label class="file-field">Foto ou vídeo como prova
+              <input type="file" name="evidence" accept="image/*,video/*" multiple data-file-input />
+              <span class="file-box"><strong>Adicionar foto ou vídeo</strong><small data-file-label>Nenhum arquivo selecionado</small></span>
+            </label>
+            <button class="button button-primary" type="submit">Enviar denúncia</button>
+            <p class="form-message" role="status" data-report-message></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <div class="donation-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden data-donation-modal>
+      <button class="modal-backdrop" type="button" aria-label="Fechar" data-donation-close></button>
+      <div class="modal-panel">
+        <button class="modal-close" type="button" aria-label="Fechar janela" data-donation-close><span></span><span></span></button>
+        <p class="kicker">Pix da campanha</p>
+        <h2 id="modal-title">Apoie a proteção da fauna</h2>
+        <img src="pix-caixatem-qr.jpg" alt="QR Code Pix Caixa Tem da campanha" />
+        <code>50272952869</code>
+      </div>
+    </div>
+
+
+    <div class="donation-modal report-modal" role="dialog" aria-modal="true" aria-labelledby="report-modal-title" hidden data-report-modal>
+      <button class="modal-backdrop" type="button" aria-label="Fechar" data-report-close></button>
+      <div class="modal-panel report-modal-panel">
+        <button class="modal-close" type="button" aria-label="Fechar janela" data-report-close><span></span><span></span></button>
+        <p class="kicker">Denúncia segura</p>
+        <h2 id="report-modal-title">Faça sua denúncia</h2>
+        <form class="report-form compact-report-form" data-report-form>
+          <div class="report-type" role="group" aria-label="Tipo de denúncia">
+            <button class="active" type="button" data-report-type="anonymous" aria-pressed="true">Anônima</button>
+            <button type="button" data-report-type="identified" aria-pressed="false">Identificada</button>
+          </div>
+          <p class="identity-warning" data-identity-warning hidden>
+            Na denúncia identificada, seus dados ficam registrados para acompanhamento do caso.
+          </p>
+          <div class="form-row identity-fields" data-identity-fields>
+            <label>Nome<input type="text" name="name" placeholder="Seu nome completo" data-identity-input /></label>
+            <label>E-mail<input type="email" name="email" placeholder="seu@email.com" data-identity-input /></label>
+          </div>
+          <div class="form-row">
+            <label class="cpf-field" data-cpf-field hidden>CPF<input type="text" name="cpf" inputmode="numeric" maxlength="14" placeholder="000.000.000-00" data-cpf /></label>
+            <label>Local<input type="text" name="location" placeholder="Cidade, rio, estrada ou referência" required /></label>
+          </div>
+          <label>Animal envolvido
+            <select name="animal" required>
+              <option value="">Selecione</option>
+              <option>Onça-pintada</option>
+              <option>Boto-cor-de-rosa</option>
+              <option>Primata amazônico</option>
+              <option>Ave silvestre</option>
+              <option>Outro animal</option>
+            </select>
+          </label>
+          <label>Descrição
+            <textarea name="message" rows="4" placeholder="Descreva o que aconteceu, quando aconteceu e quem estava envolvido" required></textarea>
+          </label>
+          <label class="file-field">Foto ou vídeo como prova
+            <input type="file" name="evidence" accept="image/*,video/*" multiple data-file-input />
+            <span class="file-box"><strong>Adicionar foto ou vídeo</strong><small data-file-label>Nenhum arquivo selecionado</small></span>
+          </label>
+          <button class="button button-primary" type="submit">Enviar denúncia</button>
+          <p class="form-message" role="status" data-report-message></p>
+        </form>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <a class="brand" href="#inicio">
+          <img src="logo-acci-a.png" alt="Logo ACCI-A" />
+          <span class="brand-copy">
+            <strong>ACCI<span>-A</span></strong>
+            <small>Aliança Contra a Caça Ilegal na Amazônia</small>
+          </span>
+        </a>
+        <p>ACCI-A • Aliança contra a Caça Ilegal na Amazônia</p>
+        <a href="#denuncia">Denuncie agora</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+

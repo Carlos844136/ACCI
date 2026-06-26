@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Macaco-aranha na copa da floresta</title>
+  <desc id="desc">Ilustração de macaco-aranha pendurado em galhos altos da Amazônia.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#082215"/><stop offset="0.58" stop-color="#10351f"/><stop offset="1" stop-color="#020c07"/></linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <g fill="none" stroke="#6f7a36" stroke-width="22" stroke-linecap="round" opacity="0.9"><path d="M-20 225 C210 160 390 180 620 120 C850 60 1010 92 1220 38"/><path d="M-30 575 C210 505 410 530 650 455 C850 392 1000 410 1220 350"/></g>
+  <g fill="#284722" opacity="0.85"><ellipse cx="150" cy="178" rx="84" ry="34" transform="rotate(-24 150 178)"/><ellipse cx="314" cy="160" rx="72" ry="29" transform="rotate(18 314 160)"/><ellipse cx="960" cy="98" rx="82" ry="32" transform="rotate(-18 960 98)"/><ellipse cx="1030" cy="382" rx="92" ry="34" transform="rotate(20 1030 382)"/><ellipse cx="250" cy="550" rx="90" ry="34" transform="rotate(-12 250 550)"/></g>
+  <g fill="#151b14" stroke="#0a110d" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M635 250 C570 270 538 330 548 394 C558 470 638 505 710 470 C775 438 792 344 750 288 C722 250 682 238 635 250Z"/>
+    <circle cx="682" cy="270" r="48"/>
+    <path d="M600 372 C520 410 455 470 410 550"/>
+    <path d="M700 370 C765 425 835 478 920 520"/>
+    <path d="M625 455 C565 520 540 595 560 690"/>
+    <path d="M705 455 C765 510 790 575 782 666"/>
+    <path d="M712 240 C800 175 868 122 910 55"/>
+    <path d="M548 328 C475 275 408 230 335 210"/>
+  </g>
+  <circle cx="699" cy="263" r="7" fill="#f2e8b8"/><path d="M655 294 C675 306 700 306 723 292" fill="none" stroke="#d7c77c" stroke-width="5" stroke-linecap="round"/>
+  <path d="M910 55 C944 38 976 39 1008 58" fill="none" stroke="#151b14" stroke-width="12" stroke-linecap="round"/>
+</svg>

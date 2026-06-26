@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Jacare-acu em rio amazônico</title>
+  <desc id="desc">Ilustração de um jacare-acu parcialmente submerso em ambiente de floresta.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#061b12"/><stop offset="0.55" stop-color="#123820"/><stop offset="1" stop-color="#03100a"/></linearGradient>
+    <linearGradient id="water" x1="0" x2="1"><stop offset="0" stop-color="#0d3b36"/><stop offset="1" stop-color="#041b1a"/></linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <path d="M0 560 C180 515 300 600 470 555 C650 510 770 580 940 542 C1080 510 1130 540 1200 520 L1200 800 L0 800 Z" fill="url(#water)"/>
+  <path d="M100 545 C250 450 520 414 845 448 C970 460 1050 494 1110 540 C980 574 730 590 500 572 C315 558 190 574 100 545 Z" fill="#102419"/>
+  <path d="M178 525 C340 462 570 438 830 462 C940 472 1012 502 1060 536 C930 550 718 552 522 540 C360 530 245 544 178 525 Z" fill="#182d1d"/>
+  <path d="M815 455 L900 404 L885 466 Z M690 445 L760 390 L750 454 Z M550 445 L612 390 L610 452 Z M420 460 L465 415 L480 470 Z" fill="#203d24"/>
+  <ellipse cx="932" cy="473" rx="20" ry="14" fill="#f2e8b8"/><circle cx="936" cy="472" r="6" fill="#020c07"/>
+  <path d="M925 520 C965 532 1012 534 1072 524" fill="none" stroke="#d7c77c" stroke-width="6" stroke-linecap="round"/>
+  <path d="M230 590 C420 625 780 625 1055 585" fill="none" stroke="#6aa078" stroke-width="8" opacity="0.45"/>
+  <g opacity="0.55" fill="#2f6a3f"><path d="M110 160 C160 230 166 315 120 400 C76 320 68 235 110 160Z"/><path d="M1035 120 C1092 196 1100 304 1042 410 C980 304 982 200 1035 120Z"/><path d="M70 250 C128 288 160 356 150 438 C80 392 50 330 70 250Z"/></g>
+</svg>
